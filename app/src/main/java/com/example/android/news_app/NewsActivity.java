@@ -185,6 +185,12 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
             mAdapter.addAll(newsList);
             mEmptyStateTextView.setVisibility(View.GONE);
         }
+
+        // Handle behavior when no data is retrieved from server
+        if (mAdapter.getItemCount() == 0) {
+            mEmptyStateTextView.setText(R.string.no_news);
+            mEmptyStateTextView.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override
