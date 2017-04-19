@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">News App</string>
+
+    <!-- Default text to show with the time it takes to read news article based on
+     word count ("5 minute read")[CHAR LIMIT=12] -->
+    <string name="minute_read">minute read</string>
+
+    <!-- Text to display in the list when there are no news[CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings title -->
+    <string name="news_settings_title">News Settings</string>
+
+    <!-- Countries Labels based on 2017's top 25 countries rankings -->
+    <string name="country_switzerland_label">Switzerland</string>
+    <string name="country_canada_label">Canada</string>
+    <string name="country_united_kingdom_label">United Kingdom</string>
+    <string name="country_germany_label">Germany</string>
+    <string name="country_japan_label">Japan</string>
+    <string name="country_sweden_label">Sweden</string>
+    <string name="country_united_states_label">United States</string>
+    <string name="country_australia_label">Australia</string>
+    <string name="country_france_label">France</string>
+    <string name="country_norway_label">Norway</string>
+    <string name="country_netherlands_label">Netherlands</string>
+    <string name="country_denmark_label">Denmark</string>
+    <string name="country_finland_label">Finland</string>
+    <string name="country_new_zealand_label">New Zealand</string>
+    <string name="country_singapore_label">Singapore</string>
+    <string name="country_italy_label">Italy</string>
+    <string name="country_luxembourg_label">Luxembourg</string>
+    <string name="country_austria_label">Austria</string>
+    <string name="country_spain_label">Spain</string>
+    <string name="country_china_label">China</string>
+    <string name="country_ireland_label">Ireland</string>
+    <string name="country_united_arab_emirates_label">United Arab Emirates</string>
+    <string name="country_south_korea_label">South Korea</string>
+    <string name="country_portugal_label">Portugal</string>
+    <string name="country_india_label">India</string>
+
+    <!-- Countries Values based on 2017's top 25 countries rankings -->
+    <string name="country_switzerland_value" translatable="false">world/switzerland</string>
+    <string name="country_canada_value" translatable="false">world/canada</string>
+    <string name="country_united_kingdom_value" translatable="false">uk-news</string>
+    <string name="country_germany_value" translatable="false">world/germany</string>
+    <string name="country_japan_value" translatable="false">world/japan</string>
+    <string name="country_sweden_value" translatable="false">world/sweden</string>
+    <string name="country_united_states_value" translatable="false">us-news</string>
+    <string name="country_australia_value" translatable="false">australia-news</string>
+    <string name="country_france_value" translatable="false">world/france</string>
+    <string name="country_norway_value" translatable="false">world/norway</string>
+    <string name="country_netherlands_value" translatable="false">world/netherlands</string>
+    <string name="country_denmark_value" translatable="false">world/denmark</string>
+    <string name="country_finland_value" translatable="false">world/finland</string>
+    <string name="country_new_zealand_value" translatable="false">world/newzealand</string>
+    <string name="country_singapore_value" translatable="false">world/singapore</string>
+    <string name="country_italy_value" translatable="false">world/italy</string>
+    <string name="country_luxembourg_value" translatable="false">world/luxembourg</string>
+    <string name="country_austria_value">world/austria</string>
+    <string name="country_spain_value">world/spain</string>
+    <string name="country_china_value">world/china</string>
+    <string name="country_ireland_value">world/ireland</string>
+    <string name="country_united_arab_emirates_value" translatable="false">world/united-arab-emirates</string>
+    <string name="country_south_korea_value" translatable="false">world/south-korea</string>
+    <string name="country_portugal_value">world/portugal</string>
+    <string name="country_india_value">world/india</string>
+
+    <!-- Settings Country -->
+    <string name="settings_country_label">Select a country</string>
+    <string name="settings_country_key" translatable="false">selected_country</string>
+    <string name="settings_country_default" translatable="false">@string/country_united_states_value</string>
+    <string name="country_dialog_title">World\'s top 25 countries</string>
+
+
+    <!-- For the news text -->
+    <string name="news_text">NEWS</string>
+
+    <!-- For the space character -->
+    <string name="space">&#160;</string>
+
+    <!-- For number of news articles to be viewed -->
+    <string name="articles_default">10</string>
+    <string name="number_articles_dialog_text">Number of articles?</string>
+
+    <!-- Settings number of articles -->
+    <string name="settings_number_articles_label">Enter number of articles</string>
+    <string name="settings_number_articles_key" translatable="false">number_of_articles</string>
+    <string name="settings_number_articles_default" translatable="false">@string/articles_default</string>
+    <string name="news_image">News Image</string>
+    <string name="authored_by">By</string>
+
+</resources>
