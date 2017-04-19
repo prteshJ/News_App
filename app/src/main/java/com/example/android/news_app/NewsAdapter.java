@@ -8,7 +8,6 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
@@ -32,8 +31,6 @@ class NewsAdapter extends RecyclerView.Adapter<NewsHolder> {
     private List<News> mNewsList = new ArrayList<>();
     private final Context mContext;
 
-    // Empty text view when no news articles are found or network disconnected
-    private final TextView mEmptyView;
 
     /**
      * Constructs a new {@link NewsAdapter}.
@@ -45,7 +42,6 @@ class NewsAdapter extends RecyclerView.Adapter<NewsHolder> {
     public NewsAdapter(Context context, List<News> newsList, View parentView) {
         this.mContext = context;
         this.mNewsList = newsList;
-        mEmptyView = (TextView) parentView.findViewById(R.id.news_empty_view);
     }
 
     /**
@@ -96,9 +92,6 @@ class NewsAdapter extends RecyclerView.Adapter<NewsHolder> {
      */
     @Override
     public int getItemCount() {
-        if (mEmptyView != null) {
-            mEmptyView.setVisibility(mNewsList.size() > 0 ? View.GONE : View.VISIBLE); // Sets empty view
-        }
         return mNewsList.size();
     }
 
